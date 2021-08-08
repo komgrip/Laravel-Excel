@@ -1,5 +1,5 @@
 {
-  "name": "maatwebsite/excel",
+  "name": "komgrip/excel",
   "description": "Supercharged Excel exports and imports in Laravel",
   "license": "MIT",
   "keywords": [
@@ -15,14 +15,15 @@
   ],
   "authors": [
     {
-      "name": "Patrick Brouwers",
-      "email": "patrick@maatwebsite.nl"
+      "name": "phanuwit hongsin",
+      "email": "phanuwit.h@komgrip.com",
+      "role": "lead"
     }
   ],
   "require": {
     "ext-json": "*",
     "php": "^7.0|^8.0",
-    "phpoffice/phpspreadsheet": "^1.18",
+    "komgrip/phpspreadsheet": "3.3.3",
     "illuminate/support": "5.8.*|^6.0|^7.0|^8.0"
   },
   "require-dev": {
